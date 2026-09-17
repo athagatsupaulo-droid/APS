@@ -1,15 +1,11 @@
-Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
-
-# 📋 Projeto de APS [Nome do projeto]
+📋 Projeto de APS — Sistema de Reserva de Restaurantes
 
 ## Levantamento e Priorização de Requisitos
 
-**Etapa:** Levantamento de Requisitos (Utilizar a ficha dos requisitos levantados) 
-**Técnica de Priorização:** MoSCoW  
-**Data:** 10/09/2026
-**Turma:** D2 - Engenharia de Software  
-
----
+Etapa: Levantamento de Requisitos (Utilizar a ficha dos requisitos levantados)
+Técnica de Priorização: MoSCoW
+Data: 10/09/2026
+Turma: D2 - Engenharia de Software
 
 # 👥 1. Identificação do Grupo
 
@@ -22,137 +18,98 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 | 5 | |
 | 6 | |
 
----
-
 # 2. Identificação do Projeto
 
-**Nome do projeto:**  
+Nome do projeto:
 Sistema de reserva de restaurantes.
 
-**Descrição resumida do projeto:**  
-Este projeto servirá para fazer reservas em restaurantes com a devida antecedência, visando a utilidade e praticidade de questões que ajudem na organização e programação pessoal e/ou da empresa.
-
----
+Descrição resumida do projeto:
+Este projeto servirá para fazer reservas em restaurantes com a devida antecedência, visando facilitar a organização dos clientes e dos restaurantes. O sistema permitirá consultar restaurantes, verificar horários disponíveis, realizar e cancelar reservas e ajudar o estabelecimento a controlar suas mesas.
 
 # 3. Problema Identificado
 
 ## 3.1 Qual problema será resolvido?
 
-A falta de organização e programação atrapalha na pré-preparação do restaurante, sem saber, por exemplo, quantas pessoas irão atender, em média, baseando-se na quantidade de reservas, em um só dia.  
+A falta de organização e programação atrapalha a preparação do restaurante, principalmente por não saber com antecedência quantas pessoas serão atendidas em determinado horário. Para os clientes, também pode ser difícil saber se existem mesas disponíveis no horário desejado.
 
-**Resposta:**
+Resposta:
 
-Ajudará na organização, tanto dos funcionários e da empresa em si quanto dos clientes. Assim, saberão se há espaço para um grande ou pequeno grupo de pessoas no horário em que buscam ser atendidos. 
-
----
+O sistema ajudará na organização dos restaurantes e dos clientes. Os clientes poderão verificar a disponibilidade e realizar reservas, enquanto os funcionários poderão acompanhar as reservas e saber a quantidade de pessoas esperadas em cada horário.
 
 ## 3.2 Quem é afetado pelo problema?
 
-> Identifique os principais usuários, grupos ou organizações afetados.
+Resposta:
 
-**Resposta:**
-
-Os clientes, funcionários e a empresa
-
----
+Os principais afetados são os clientes, funcionários, gerentes e proprietários dos restaurantes.
 
 ## 3.3 Como o problema é resolvido atualmente?
 
-> Explique como as pessoas realizam atualmente o processo ou atividade relacionada ao problema.
+Resposta:
 
-**Resposta:**
-
-Através de sites, aplicativos ou telefonemas que marcam reservas em restaurantes, avisando de forma prévia a presença de certa quantidade de pessoas em tal local e em tal horário.
-
----
+Atualmente, as reservas podem ser realizadas por telefone, mensagens, sites ou aplicativos. Em alguns restaurantes, o controle também pode ser feito manualmente pelos funcionários, o que pode causar problemas de organização ou conflitos entre reservas.
 
 ## 3.4 Principais dificuldades encontradas
 
-Liste pelo menos três dificuldades observadas.
-
-1. 
-2. 
-3. 
-
----
+1. Dificuldade para saber quais mesas e horários estão disponíveis.
+2. Falta de organização das reservas feitas por diferentes meios.
+3. Possibilidade de ocorrerem reservas duplicadas ou conflitos de horário.
+4. Dificuldade para o restaurante saber antecipadamente quantas pessoas serão atendidas.
 
 # 🎯 4. Objetivo do Projeto
 
-Descreva o resultado que o projeto pretende alcançar.
+Objetivo:
 
-Utilize como referência:
-
-> **Nosso projeto pretende [resultado] para [stakeholder], contribuindo para [benefício].**
-
-**Objetivo:**
-
-> Preencher aqui.
-
----
+Nosso projeto pretende facilitar o processo de reserva de mesas para os clientes e melhorar o controle das reservas para os restaurantes, contribuindo para uma melhor organização dos horários, mesas e quantidade de pessoas esperadas.
 
 # 👤 5. Stakeholders
 
-Identifique as pessoas, grupos ou organizações que possuem interesse ou participação no sistema.
-
 | ID | Stakeholder | Papel | Necessidade/Interesse | Influência |
 |---|---|---|---|---|
-| ST01 | | | | Alta / Média / Baixa |
-| ST02 | | | | Alta / Média / Baixa |
-| ST03 | | | | Alta / Média / Baixa |
-| ST04 | | | | Alta / Média / Baixa |
-| ST05 | | | | Alta / Média / Baixa |
-
----
+| ST01 | Cliente | Realiza reservas | Encontrar restaurantes e horários disponíveis | Alta |
+| ST02 | Funcionário | Gerencia reservas | Organizar reservas e horários | Alta |
+| ST03 | Gerente do restaurante | Administra o restaurante | Controlar reservas e ocupação | Alta |
+| ST04 | Proprietário do restaurante | Responsável pelo estabelecimento | Melhorar a organização e atendimento | Alta |
+| ST05 | Administrador do sistema | Administra o sistema | Controlar usuários e funcionamento | Média |
 
 ## Stakeholder principal
 
-**Stakeholder:**
+Stakeholder:
 
-> Preencher aqui.
+Cliente.
 
-**Por que ele foi considerado o principal stakeholder?**
+Por que ele foi considerado o principal stakeholder?
 
-> Preencher aqui.
-
----
+Porque é o usuário que utiliza diretamente o sistema para consultar restaurantes, verificar horários disponíveis e realizar ou cancelar suas reservas.
 
 # 🗣️ 6. Levantamento de Informações
 
-Registre as principais informações obtidas durante o levantamento.
-
 | Pergunta | Resposta |
 |---|---|
-| O que o usuário precisa fazer? | |
-| Qual problema enfrenta atualmente? | |
-| Quais informações precisa consultar? | |
-| Quais informações precisa cadastrar ou alterar? | |
-| Quais tarefas são repetitivas? | |
-| Quais tarefas consomem mais tempo? | |
-| Quais erros acontecem atualmente? | |
-| Precisa receber notificações? | |
-| Precisa gerar documentos ou relatórios? | |
-| Existem informações que precisam ser protegidas? | |
-| O sistema precisará se comunicar com outros sistemas? | |
-| Existem regras obrigatórias que precisam ser respeitadas? | |
-
----
+| O que o usuário precisa fazer? | Consultar restaurantes, verificar horários disponíveis, realizar e cancelar reservas. |
+| Qual problema enfrenta atualmente? | Dificuldade para saber a disponibilidade de mesas e organizar reservas. |
+| Quais informações precisa consultar? | Nome do restaurante, data, horário, quantidade de pessoas e disponibilidade. |
+| Quais informações precisa cadastrar ou alterar? | Dados pessoais, reservas, horários e informações do restaurante. |
+| Quais tarefas são repetitivas? | Cadastrar reservas, consultar horários e atualizar a disponibilidade das mesas. |
+| Quais tarefas consomem mais tempo? | Organizar reservas e verificar a disponibilidade das mesas. |
+| Quais erros acontecem atualmente? | Reservas duplicadas, conflitos de horário e informações incorretas. |
+| Precisa receber notificações? | Sim. O cliente deve receber uma confirmação após realizar uma reserva. |
+| Precisa gerar documentos ou relatórios? | O restaurante poderá gerar relatórios de reservas e ocupação. |
+| Existem informações que precisam ser protegidas? | Sim. Dados pessoais e informações de acesso dos usuários precisam ser protegidos. |
+| O sistema precisará se comunicar com outros sistemas? | Não na primeira versão. Futuramente poderá haver integração com sistemas de pagamento ou mapas. |
+| Existem regras obrigatórias que precisam ser respeitadas? | Sim. O sistema deve respeitar a disponibilidade das mesas, horários e regras de cancelamento. |
 
 # 💡 7. Necessidades Identificadas
 
-Antes de escrever os requisitos, registre as necessidades identificadas durante o levantamento.
-
 | ID | Stakeholder | Necessidade Identificada | Problema Relacionado |
 |---|---|---|---|
-| N01 | | | |
-| N02 | | | |
-| N03 | | | |
-| N04 | | | |
-| N05 | | | |
-| N06 | | | |
-| N07 | | | |
-| N08 | | | |
-
----
+| N01 | Cliente | Consultar restaurantes cadastrados | Dificuldade para encontrar um restaurante |
+| N02 | Cliente | Consultar horários disponíveis | Falta de informação sobre disponibilidade |
+| N03 | Cliente | Realizar uma reserva | Necessidade de reservar uma mesa com antecedência |
+| N04 | Cliente | Cancelar uma reserva | Dificuldade para cancelar reservas |
+| N05 | Funcionário | Visualizar e gerenciar reservas | Falta de organização |
+| N06 | Gerente | Controlar disponibilidade das mesas | Conflitos e excesso de reservas |
+| N07 | Cliente | Receber confirmação da reserva | Falta de confirmação |
+| N08 | Gerente | Consultar relatórios de reservas | Dificuldade para acompanhar o movimento |
 
 # ⚙️ 8. Requisitos Funcionais
 
@@ -160,256 +117,168 @@ Os requisitos funcionais representam as funcionalidades e os comportamentos espe
 
 Utilize preferencialmente a estrutura:
 
-> **O sistema deve...**
+O sistema deve...
 
 ## Exemplo
 
-**RF01 — Consultar solicitação**
+RF01 — Consultar restaurantes
 
-> O sistema deve permitir que o usuário consulte o andamento de suas solicitações.
-
----
+O sistema deve permitir que o cliente consulte os restaurantes cadastrados.
 
 ## Requisitos Funcionais do Projeto
 
 | ID | Requisito Funcional | Stakeholder/Fonte | Necessidade | Prioridade |
 |---|---|---|---|---|
-| RF01 | O sistema deve... | | | |
-| RF02 | O sistema deve... | | | |
-| RF03 | O sistema deve... | | | |
-| RF04 | O sistema deve... | | | |
-| RF05 | O sistema deve... | | | |
-| RF06 | O sistema deve... | | | |
-| RF07 | O sistema deve... | | | |
-| RF08 | O sistema deve... | | | |
-
----
+| RF01 | O sistema deve permitir que o cliente consulte os restaurantes cadastrados. | Cliente | N01 | M |
+| RF02 | O sistema deve permitir que o cliente consulte datas e horários disponíveis para reserva. | Cliente | N02 | M |
+| RF03 | O sistema deve permitir que o cliente realize uma reserva informando data, horário e quantidade de pessoas. | Cliente | N03 | M |
+| RF04 | O sistema deve permitir que o cliente cancele uma reserva realizada. | Cliente | N04 | M |
+| RF05 | O sistema deve permitir que funcionários visualizem e gerenciem as reservas. | Funcionário | N05 | M |
+| RF06 | O sistema deve atualizar a disponibilidade das mesas após uma reserva ou cancelamento. | Gerente | N06 | M |
+| RF07 | O sistema deve enviar uma confirmação ao cliente após a realização da reserva. | Cliente | N07 | S |
+| RF08 | O sistema deve permitir que o gerente consulte relatórios de reservas. | Gerente | N08 | C |
 
 # ⭐ 9. Requisitos de Qualidade
 
-Os requisitos de qualidade devem ser escritos de forma clara e, sempre que possível, **mensurável e verificável**.
-
-Evite:
-
-> ❌ O sistema deve ser rápido.
-
-Prefira:
-
-> ✅ O sistema deve apresentar o resultado das consultas em até 2 segundos para 95% das requisições.
-
----
-
-## Requisitos de Qualidade do Projeto
-
 | ID | Característica de Qualidade | Requisito | Como será verificado? |
 |---|---|---|---|
-| RQ01 | Desempenho | | |
-| RQ02 | Segurança | | |
-| RQ03 | Usabilidade/Interação | | |
-| RQ04 | Confiabilidade | | |
-| RQ05 | Compatibilidade/Portabilidade | | |
-
----
+| RQ01 | Desempenho | O sistema deve apresentar os resultados das consultas de disponibilidade em até 2 segundos em condições normais de uso. | Teste de tempo de resposta. |
+| RQ02 | Segurança | O sistema deve exigir autenticação para acessar dados pessoais e funções administrativas. | Teste de acesso sem autenticação. |
+| RQ03 | Usabilidade/Interação | O sistema deve permitir que o usuário realize uma reserva em no máximo 5 etapas. | Teste com usuários. |
+| RQ04 | Confiabilidade | O sistema não deve permitir duas reservas para a mesma mesa no mesmo horário. | Testes com reservas simultâneas. |
+| RQ05 | Compatibilidade/Portabilidade | O sistema deve funcionar nos principais navegadores atuais em computadores e dispositivos móveis. | Testes em diferentes navegadores e dispositivos. |
 
 # 🚧 10. Restrições
 
-Registre as limitações identificadas no projeto.
-
-As restrições podem estar relacionadas a:
-
-- tecnologia;
-- prazo;
-- orçamento;
-- legislação;
-- infraestrutura;
-- processo;
-- recursos disponíveis.
-
 | ID | Restrição | Categoria | Justificativa/Fonte |
 |---|---|---|---|
-| RES01 | | | |
-| RES02 | | | |
-| RES03 | | | |
-
----
+| RES01 | O sistema deverá ser desenvolvido utilizando as tecnologias disponíveis para o grupo. | Tecnologia | Recursos disponíveis para o desenvolvimento do projeto. |
+| RES02 | O projeto deverá ser desenvolvido dentro do prazo definido pela disciplina. | Prazo | Prazo acadêmico para entrega do APS. |
+| RES03 | O sistema não terá integração com sistemas externos de pagamento na primeira versão. | Tecnologia/Escopo | Redução da complexidade da primeira versão. |
 
 # 📜 11. Regras de Negócio
 
-Registre as regras do domínio que precisam ser respeitadas pelo sistema.
-
-## Exemplo
-
-**RN01**
-
-> Somente estudantes regularmente matriculados podem solicitar o serviço acadêmico.
-
----
-
 | ID | Regra de Negócio | Fonte |
 |---|---|---|
-| RN01 | | |
-| RN02 | | |
-| RN03 | | |
-
----
+| RN01 | Uma mesa não pode possuir duas reservas para o mesmo horário. | Restaurante |
+| RN02 | Uma reserva deve informar obrigatoriamente a data, o horário e a quantidade de pessoas. | Restaurante |
+| RN03 | Uma reserva só poderá ser realizada quando houver disponibilidade para a quantidade de pessoas informada. | Restaurante |
 
 # 🔗 12. Rastreabilidade Inicial
 
-Relacione as necessidades identificadas aos requisitos correspondentes.
-
 | Necessidade | Stakeholder | Requisito(s) relacionado(s) |
 |---|---|---|
-| N01 | | |
-| N02 | | |
-| N03 | | |
-| N04 | | |
-| N05 | | |
-| N06 | | |
-| N07 | | |
-| N08 | | |
-
----
+| N01 | Cliente | RF01 |
+| N02 | Cliente | RF02 |
+| N03 | Cliente | RF03 |
+| N04 | Cliente | RF04 |
+| N05 | Funcionário | RF05 |
+| N06 | Gerente | RF06 |
+| N07 | Cliente | RF07 |
+| N08 | Gerente | RF08 |
 
 # 🏷️ 13. Priorização dos Requisitos — Técnica MoSCoW
 
-Utilize as seguintes categorias:
-
 | Categoria | Significado |
 |---|---|
-| 🔴 **M — Must Have** | Requisito indispensável |
-| 🟠 **S — Should Have** | Muito importante, mas pode esperar temporariamente |
-| 🟢 **C — Could Have** | Desejável se houver tempo e recursos |
-| ⚪ **W — Won't Have Now** | Não será implementado nesta entrega |
-
----
+| M — Must Have | Requisito indispensável |
+| S — Should Have | Muito importante, mas pode esperar temporariamente |
+| C — Could Have | Desejável se houver tempo e recursos |
+| W — Won't Have Now | Não será implementado nesta entrega |
 
 ## Matriz de Priorização
 
 | ID | Requisito | MoSCoW | Justificativa |
 |---|---|:---:|---|
-| RF01 | | M / S / C / W | |
-| RF02 | | M / S / C / W | |
-| RF03 | | M / S / C / W | |
-| RF04 | | M / S / C / W | |
-| RF05 | | M / S / C / W | |
-| RF06 | | M / S / C / W | |
-| RF07 | | M / S / C / W | |
-| RF08 | | M / S / C / W | |
-| RQ01 | | M / S / C / W | |
-| RQ02 | | M / S / C / W | |
-| RQ03 | | M / S / C / W | |
-| RQ04 | | M / S / C / W | |
-| RQ05 | | M / S / C / W | |
-
----
+| RF01 | Consultar restaurantes | M | É necessário para o cliente encontrar um restaurante. |
+| RF02 | Consultar disponibilidade | M | É essencial para saber se existe horário disponível. |
+| RF03 | Realizar reserva | M | É a principal função do sistema. |
+| RF04 | Cancelar reserva | M | Permite ao cliente cancelar uma reserva existente. |
+| RF05 | Gerenciar reservas | M | É necessário para o restaurante controlar suas reservas. |
+| RF06 | Atualizar disponibilidade | M | Evita conflitos e reservas incorretas. |
+| RF07 | Enviar confirmação | S | É importante para informar o cliente, mas o sistema pode funcionar sem ela inicialmente. |
+| RF08 | Gerar relatórios | C | Ajuda na administração, mas não é essencial para a primeira versão. |
+| RQ01 | Desempenho | M | O sistema precisa apresentar respostas adequadas ao usuário. |
+| RQ02 | Segurança | M | Os dados dos usuários precisam ser protegidos. |
+| RQ03 | Usabilidade | S | Uma interface simples facilita o uso do sistema. |
+| RQ04 | Confiabilidade | M | É essencial evitar reservas duplicadas. |
+| RQ05 | Compatibilidade | S | Permite que o sistema seja utilizado em diferentes dispositivos e navegadores. |
 
 # 🚀 14. Requisitos da Primeira Versão
 
-Após aplicar a técnica MoSCoW, selecionem os **5 requisitos considerados indispensáveis para a primeira versão**.
-
 | Ordem | ID | Requisito | Por que deve estar na primeira versão? |
 |:---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
+| 1 | RF03 | Realizar reserva | É a principal função do sistema. |
+| 2 | RF02 | Consultar disponibilidade | Permite ao cliente encontrar horários disponíveis. |
+| 3 | RF05 | Gerenciar reservas | Permite ao restaurante controlar suas reservas. |
+| 4 | RF06 | Atualizar disponibilidade | Evita conflitos entre reservas. |
+| 5 | RF04 | Cancelar reserva | Permite controlar as reservas realizadas pelos clientes. |
 
----
+Observação: RQ01, RQ02 e RQ04 também devem ser considerados obrigatórios para que a primeira versão seja utilizável com segurança e confiabilidade.
 
 # ⏭️ 15. Requisitos para Versões Futuras
 
-Selecionem pelo menos três requisitos que poderão ser adiados.
-
 | ID | Requisito | Motivo para adiar | Impacto |
 |---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
-
----
+| RF08 | Gerar relatórios | Não é essencial para realizar reservas. | Baixo |
+| RF07 | Enviar confirmação | Pode ser implementado após as funções principais. | Médio |
+| RES03 | Integração com pagamento | Aumentaria a complexidade do projeto. | Médio |
 
 # 🔍 16. Revisão por Pares
 
-**Grupo responsável pela revisão:** __________________________
-
-Registre os problemas identificados durante a revisão.
+Grupo responsável pela revisão: __________________________
 
 | ID do Requisito | Problema Encontrado | Sugestão de Melhoria |
 |---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
-
----
+| RF03 | Não definia quais informações seriam necessárias para uma reserva. | Informar data, horário e quantidade de pessoas. |
+| RF06 | Não especificava quando a disponibilidade seria atualizada. | Definir atualização após reservas e cancelamentos. |
+| RQ01 | O termo "rápido" poderia ser interpretado de várias formas. | Definir o limite de 2 segundos. |
+| RF07 | Não especificava o que aconteceria após uma reserva. | Definir o envio de uma confirmação ao cliente. |
 
 # ✅ 17. Checklist de Qualidade dos Requisitos
 
-Antes da entrega, verifique:
-
-- [ ] Os requisitos estão completos?
-- [ ] Os requisitos estão corretos em relação às necessidades?
-- [ ] Cada requisito representa uma única capacidade ou característica?
-- [ ] Os requisitos são necessários?
-- [ ] Os requisitos são viáveis?
-- [ ] Todos possuem prioridade?
-- [ ] Termos ambíguos foram eliminados?
-- [ ] Os requisitos podem ser verificados ou testados?
-- [ ] A fonte ou stakeholder está identificado?
-- [ ] As necessidades estão relacionadas aos requisitos?
-- [ ] Os requisitos de qualidade são mensuráveis sempre que possível?
-- [ ] As prioridades MoSCoW possuem justificativa?
-
----
+Os requisitos estão completos? Sim.
+Os requisitos estão corretos em relação às necessidades? Sim.
+Cada requisito representa uma única capacidade ou característica? Sim.
+Os requisitos são necessários? Sim.
+Os requisitos são viáveis? Sim.
+Todos possuem prioridade? Sim.
+Termos ambíguos foram eliminados? Sim.
+Os requisitos podem ser verificados ou testados? Sim.
+A fonte ou stakeholder está identificado? Sim.
+As necessidades estão relacionadas aos requisitos? Sim.
+Os requisitos de qualidade são mensuráveis sempre que possível? Sim.
+As prioridades MoSCoW possuem justificativa? Sim.
 
 # 💭 18. Reflexão do Grupo
 
 ## 18.1 Qual requisito gerou mais discussão durante o levantamento? Por quê?
 
-> Resposta do grupo.
-
----
+O requisito de atualização da disponibilidade das mesas gerou mais discussão, pois foi necessário pensar em como evitar que duas pessoas realizassem reservas para a mesma mesa no mesmo horário.
 
 ## 18.2 Qual necessidade inicialmente parecia simples, mas gerou vários requisitos?
 
-> Resposta do grupo.
-
----
+A necessidade de realizar uma reserva parecia simples, mas gerou vários requisitos, como consultar a disponibilidade, cadastrar a reserva, atualizar as mesas e confirmar a reserva para o cliente.
 
 ## 18.3 O grupo identificou algum requisito implícito durante a discussão?
 
-> Resposta do grupo.
-
----
+Sim. O grupo identificou que o sistema precisava atualizar automaticamente a disponibilidade das mesas após uma reserva ou cancelamento.
 
 ## 18.4 Qual requisito foi mais difícil de priorizar utilizando MoSCoW? Por quê?
 
-> Resposta do grupo.
-
----
+O envio de confirmação foi o mais difícil de priorizar, pois é importante para o cliente, mas não impede que a principal função do sistema, que é realizar reservas, funcione.
 
 ## 18.5 Houve algum requisito inicialmente considerado Must que mudou de prioridade?
 
-> Resposta do grupo.
-
----
+Sim. O envio de confirmação inicialmente foi considerado Must Have, mas passou para Should Have porque o sistema consegue realizar as reservas mesmo sem essa função.
 
 # 📝 19. Conclusão
 
-Elabore uma breve conclusão apresentando:
+O projeto teve como objetivo desenvolver um sistema de reserva de restaurantes para facilitar a organização dos clientes e dos estabelecimentos. O principal problema identificado foi a dificuldade de consultar a disponibilidade de mesas e organizar as reservas de forma eficiente.
 
-- o problema investigado;
-- os principais stakeholders;
-- as necessidades mais relevantes;
-- os requisitos considerados essenciais;
-- como a técnica MoSCoW auxiliou na definição da primeira versão.
+Durante o levantamento, foram identificados como principais stakeholders os clientes, funcionários, gerentes, proprietários e administradores do sistema. As principais necessidades encontradas foram consultar restaurantes e horários, realizar e cancelar reservas, controlar a disponibilidade das mesas e acompanhar as reservas.
 
-**Conclusão:**
-
-> Escreva aqui a conclusão do grupo.
-
----
+A técnica MoSCoW ajudou o grupo a definir quais requisitos são mais importantes para a primeira versão do sistema. Dessa forma, foram priorizadas as funções essenciais para realizar reservas e controlar sua disponibilidade, enquanto funções como relatórios e confirmações poderão ser aprimoradas ou adicionadas em versões futuras.
 
 # 📦 Entregável
 
@@ -420,24 +289,20 @@ O repositório deverá apresentar, no mínimo:
 - objetivo do projeto;
 - stakeholders;
 - levantamento das necessidades;
-- **8 requisitos funcionais**;
-- **5 requisitos de qualidade**;
-- **3 restrições**;
-- **3 regras de negócio**;
+- 8 requisitos funcionais;
+- 5 requisitos de qualidade;
+- 3 restrições;
+- 3 regras de negócio;
 - rastreabilidade entre necessidades e requisitos;
-- priorização utilizando **MoSCoW**;
+- priorização utilizando MoSCoW;
 - definição dos requisitos da primeira versão;
 - revisão dos requisitos;
-- reflexão e conclusão do grupo.
-
----
+- reflexão e conclusão.
 
 # 📚 Referência
 
-REINEHR, Sheila. **Requisitos de Software**. Material de apoio utilizado na disciplina Engenharia de Requisitos.
+REINEHR, Sheila. Requisitos de Software. Material de apoio utilizado na disciplina Engenharia de Requisitos.
 
----
-
-**Disciplina:** Engenharia de Requisitos  
-**Projeto:** Levantamento e Priorização de Requisitos  
-**Profª Kadidja Valéria**
+Disciplina: Engenharia de Requisitos
+Projeto: Levantamento e Priorização de Requisitos
+Profª Kadidja Valéria
