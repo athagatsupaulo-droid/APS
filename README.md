@@ -21,6 +21,6 @@ Disciplina voltada para o estudo de metodologias e técnicas de análise, modela
 └── Projeto APS/    # Projeto desenvolvido ao longo do semestre
 ```
 
-## 👩‍💻 Autora
+## 👩‍💻 Autor
 
 Paulo Henrique Santos Azevedo — Estudante de Engenharia de Software
